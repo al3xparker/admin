@@ -49,9 +49,9 @@ branches:
         require_last_push_approval: true
         # Allow specific users, teams, or apps to bypass pull request requirements. Set to null to disable.
         bypass_pull_request_allowances:
-          apps: []
-          users: []
-          teams: []
+          #apps: []
+          #users: []
+          #teams: []
         # Specify which users and teams can dismiss pull request reviews. Pass an empty dismissal_restrictions object to disable. User and team dismissal_restrictions are only available for organization-owned repositories. Omit this parameter for personal repositories.
         #dismissal_restrictions:
           #users: []
@@ -69,4 +69,5 @@ branches:
         #apps: []
         #users: []
         #teams: []
+        
   #pattern: '[a-zA-Z0-9_-]+_[a-zA-Z0-9_-]+.*' 
