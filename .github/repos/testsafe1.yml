@@ -1,7 +1,7 @@
 # This settings can be used to create repo level settings
 repository: 
   # Name of the repo
-  name: test
+  name: testsafe1
  
   # Create the repo if it is not existing
   force_create: true
@@ -43,7 +43,7 @@ repository:
   
   # Can be public or private. If your organization is associated with an enterprise account using 
   # GitHub Enterprise Cloud or GitHub Enterprise Server 2.20+, visibility can also be internal. 
-  visibility: private
+  visibility: public
   
   # Either `true` to enable issues for this repository, `false` to disable them.
   has_issues: true
