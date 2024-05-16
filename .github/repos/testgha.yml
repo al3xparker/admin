@@ -6,13 +6,7 @@ repository:
   # A short description of the repository that will show up on GitHub
   description: description of the repo - testgha
   
-  # A URL with more information about the repository
-  #homepage: https://example.github.io/
-    
-  # Keep this as true for most cases
-  # A lot of the policies below cannot be implemented on bare repos
-  # Pass true to create an initial commit with empty README.
-  #auto_init: true
+
     
   # A list of topics to set on the repository
   #topics: 
@@ -24,9 +18,9 @@ repository:
 
   # Settings for Code security and analysis
   # Dependabot Alerts
-  # security:
-    # enableVulnerabilityAlerts: true
-    # enableAutomatedSecurityFixes: true
+  security:
+    enableVulnerabilityAlerts: true
+    enableAutomatedSecurityFixes: true
   
   # Either `true` to make the repository private, or `false` to make it public. 
   # If this value is changed and if Org members cannot change the visibility of repos
@@ -38,14 +32,14 @@ repository:
   #visibility: private
   
   # Either `true` to enable issues for this repository, `false` to disable them.
-  #has_issues: true
+  has_issues: false
   
   # Either `true` to enable projects for this repository, or `false` to disable them.
   # If projects are disabled for the organization, passing `true` will cause an API error.
-  #has_projects: true
+  has_projects: false
   
   # Either `true` to enable the wiki for this repository, `false` to disable it.
-  #has_wiki: true
+  has_wiki: false
   
   # The default branch for this repository.
   #default_branch: main
