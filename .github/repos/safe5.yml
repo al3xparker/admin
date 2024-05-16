@@ -21,3 +21,4 @@ repository:
   # A lot of the policies below cannot be implemented on bare repos
   # Pass true to create an initial commit with empty README.
   auto_init: true
+
